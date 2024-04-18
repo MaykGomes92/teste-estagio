@@ -5,6 +5,12 @@ while (k < indice) {
     soma = soma + k;
 }
 
+let soma2 = 0;
+for(let indice2 = 0; indice2 <= 13; indice2++){
+    soma2 =  soma2 + indice2;
+}
+console.log(soma2) // 91
+
 console.log(soma); // 91
 
 // ============================================================= 
